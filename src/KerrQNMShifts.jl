@@ -109,12 +109,12 @@ function CircleIntegrand(ψL,δTs::Function,ψ)
         (t,z) -> (-2*Δr*FF(r₊ + Δr*(1.0-2.0*t-im),z))
     end
 end
-#=
+
 function importqnm()
     global qnm = pyimport("qnm")
     qnm.download_data()
 end
-=#
+
 
 qnm = pyimport("qnm")
 qnm.download_data()
@@ -213,6 +213,6 @@ function ComputeShift(s,l,m,n,a,δT::Function,∂ωT::Function; ϵ = 10^(-10), a
 end
 
 
-export qnm, MakeδT, Make∂ωT, ComputeShift
+export qnm, MakeδT, Make∂ωT, ComputeShift, importqnm
 
 end
