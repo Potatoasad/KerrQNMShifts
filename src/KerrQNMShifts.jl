@@ -41,7 +41,7 @@ end
 
 
 function MakeδT(file)
-    thisexpr = GetExprMetric("TuekolskyShifts.csv")
+    thisexpr = GetExprMetric(file)
     @eval δT(r,x,a,m,ω,s,ψ11,ψ12,ψ22,ψ1,ψ2,ψ,ψL; M=1) = $thisexpr
     δT
 end
@@ -49,7 +49,7 @@ end
 #δT = MakeδT("TuekolskyShifts.csv")
 
 function Make∂ωT(file)
-    thisexpr2 = GetExprDerivative("TuekolskyFrequencyDerivative.csv")
+    thisexpr2 = GetExprDerivative(file)
     @eval ∂ωT(r,x,a,m,ω,s,ψ11,ψ12,ψ22,ψ1,ψ2,ψ,ψL; M=1) = $thisexpr2
     ∂ωT
 end
