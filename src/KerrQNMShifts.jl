@@ -113,6 +113,7 @@ end
 function importqnm()
     global qnm = pyimport("qnm")
     qnm.download_data()
+    qnm
 end
 
 
