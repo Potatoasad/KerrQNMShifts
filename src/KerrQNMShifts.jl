@@ -111,13 +111,6 @@ function CircleIntegrand(ψL,δTs::Function,ψ)
     end
 end
 
-function importqnm()
-    global qnm = pyimport("qnm")
-    qnm.download_data()
-    qnm
-end
-
-
 const qnm = PyNULL()
 
 function __init__()
@@ -220,6 +213,6 @@ function ComputeShift(s,l,m,n,a,δT::Function,∂ωT::Function; ϵ = 10^(-10), a
 end
 
 
-export qnm, MakeδT, Make∂ωT, ComputeShift, importqnm
+export qnm, qnmfunctionnew, MakeδT, Make∂ωT, ComputeShift, importqnm
 
 end
