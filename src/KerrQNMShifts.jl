@@ -122,8 +122,9 @@ const qnm = PyNULL()
 
 function __init__()
     copy!(qnm, pyimport("qnm"))
+    qnm.download_data()
 end
-qnm.download_data()
+
 function qnmfunctionnew(s,l,m,n,a; qnm=qnm)
     grav_freq = qnm.modes_cache(s=s,l=l,m=m,n=n)
     ω, Alm, Cllʼ = grav_freq(a=a)
