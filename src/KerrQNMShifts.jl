@@ -17,5 +17,6 @@ include("OperatorSandwichType.jl")
 
 
 export qnm, qnmfunctionnew, importqnm
+export OperatorShift, OperatorSandwich
 
 end
