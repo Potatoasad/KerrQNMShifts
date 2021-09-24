@@ -92,8 +92,8 @@ uuid = "d38c429a-6771-53c6-b99e-75d170b6e991"
 version = "0.5.7"
 
 [[ContourIntegrals]]
-deps = ["Cubature", "QuadGK"]
-git-tree-sha1 = "75e415284fd9123baf44e39d5598244ce96b62c2"
+deps = ["Cubature", "MacroTools", "QuadGK"]
+git-tree-sha1 = "526aaddb2ff4b4d1bf942d63e1e21f909ec8ac7b"
 repo-rev = "main"
 repo-url = "https://github.com/Potatoasad/ContourIntegrals.jl"
 uuid = "6a132690-a590-47c4-bd18-f8366a4f4167"
@@ -362,8 +362,8 @@ uuid = "aacddb02-875f-59d6-b918-886e6ef4fbf8"
 version = "2.1.0+0"
 
 [[KerrQuasinormalModes]]
-deps = ["CSV", "LinearAlgebra", "NLsolve", "StaticArrays", "Statistics"]
-git-tree-sha1 = "0d996b64c08368909d0b67792a5f2b79acd877ed"
+deps = ["CSV", "LinearAlgebra", "NLsolve", "PyCall", "StaticArrays", "Statistics"]
+git-tree-sha1 = "6d97ddaa3bfc7ba739bdbba9d89908fea380b37c"
 repo-rev = "main"
 repo-url = "https://github.com/Potatoasad/KerrQuasinormalModes.jl"
 uuid = "a0c1a39c-d08a-4968-9445-310f7f487a47"
