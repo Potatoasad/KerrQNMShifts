@@ -5,6 +5,7 @@ version = "0.1.0"
 
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+ContourIntegrals = "6a132690-a590-47c4-bd18-f8366a4f4167"
 Cubature = "667455a9-e2ce-5579-9412-b964f529a492"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 KerrQuasinormalModes = "a0c1a39c-d08a-4968-9445-310f7f487a47"
