@@ -363,7 +363,7 @@ version = "2.1.0+0"
 
 [[KerrQuasinormalModes]]
 deps = ["CSV", "LinearAlgebra", "NLsolve", "PyCall", "StaticArrays", "Statistics"]
-git-tree-sha1 = "6d97ddaa3bfc7ba739bdbba9d89908fea380b37c"
+git-tree-sha1 = "6d261f700cb78d176cbdb9fd3bf732a7e8f66c00"
 repo-rev = "main"
 repo-url = "https://github.com/Potatoasad/KerrQuasinormalModes.jl"
 uuid = "a0c1a39c-d08a-4968-9445-310f7f487a47"
