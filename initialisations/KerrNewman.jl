@@ -34,7 +34,7 @@ C2 = radial2 ⊗ angular
 radial3 = SemiInfiniteLine(point2 , point2 + Δr*im , true)
 C3 = radial3 ⊗ angular
 
-TheContour = C1⊕C2⊕C3
+thedomain = C1⊕C2⊕C3
 
 ### Define Transformed Functions (that live on the compactified domain [0,1]⊗[0,1])
 δTₒ = TransformIntegrand(δT , thedomain)
